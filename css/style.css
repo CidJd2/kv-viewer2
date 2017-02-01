@@ -1,0 +1,19 @@
+body {
+	padding: 50px;
+	font: 14px "LucidaGrande", Helvetica, Arial, sans-serif;
+}
+
+a {
+	color: #00B7FF;
+}
+
+ul {
+	padding: 0;
+}
+
+ul li {
+	list-style-type: none;
+	background: #EFEFEF;
+	padding: 10px;
+	margin-bottom: 10px;
+}

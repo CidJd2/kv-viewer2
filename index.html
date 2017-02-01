@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>kv-viewer</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<h2>Data</h2>
+	<ul id="datas"></ul>
+
+	<template id="element-template">
+		<li>
+			<p><strong>Key:</strong> {{key}}</p>
+			<p><strong>Value:</strong> {{value}}</p>
+			<button data-id='{{key}}' class='hide'>hide</button>
+		</li>
+	</template>
+
+	<h4>Clear data</h4>
+	<button id="clear-data">Clear</button>
+
+	<h4>Add data</h4>
+	<p>key :<input type="text" id="key"></p>
+	<p>value :<input type="text" id="value"></p>
+	<button id="add-data">Add</button>
+
+	<script src="lib/jquery-3.1.1.min.js"></script>
+	<script src="lib/main.js"></script>
+	<script src="lib/mustache.js"></script>
+	
+</body>
+</html>
